@@ -240,6 +240,9 @@ footer{
   .header, .love-enjoy-container, .some-fact-container, .sponspors-container{
     padding: 20px;
   }
+  .love-enjoy-container{
+    flex-direction: column-reverse;
+  }
   .btn-left{
     margin: 0px;
   }
