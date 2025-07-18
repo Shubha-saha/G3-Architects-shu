@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Share styles  */
+.display-flex{
+  display: flex;
+}
+.dark-02{
+  color: #424242;
+}
+.dark-03{
+  color: #727272;
+}
+.btn-primary{
+  background: #FF900E;
+  color: #FFFFFF;
+  padding: 15px 20px;
+  margin: 20px;
+  border: none;
+  border-radius: 8px;
+}
+
+
+/* header styles  */
+.header{
+  background: rgba(255, 144, 14, 0.1);
+}
+.nav-bar{
+  justify-content: space-between;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding-top: 50px;
+  font-size: 1.1rem;
+  align-items: center;
+}
+.nav-bar h1{
+  font-size: 2.70rem;
+}
+.nav-bar .nav-list{
+  max-width: 470px;
+  gap: 20px;
+  justify-content: space-between;
+}
+.nav-bar li{
+  list-style: none;
+}
+.nav-bar li a{
+  text-decoration: none;
+}
+
+.header-text{
+  max-width: 720px;
+  margin: 0 auto;
+  padding-top: 100px;
+  text-align: center;
+}
+.header-text h1{
+  font-size: 4rem;
+  margin-bottom: 1.1rem;
+}
+.banner-image{
+  max-width: 1040px;
+  margin: 0 auto;
+}
+.banner-image img{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+/* Responsive */
+/* mobile  */
+@media screen and (max-width: 576px) {
+  .display-flex{
+    flex-direction: column;
+  }
+}
+
+/* Tablet  */
+@media screen and (max-width: 576px) and (max-width: 972px) {
+  
+}
